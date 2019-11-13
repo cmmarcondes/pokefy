@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>nova pokedex</title>
+</head>
+<style>
+    div.cont {
+        display:block;
+        position: fixed;
+        width: 20%;
+        background-color: red;
+    }
+    div.cont2{
+        position: relative;
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+
+    small {
+        color: white;
+    }
+    img.controlImg{
+        width: 220px;
+        height: 220px;
+        margin: auto;
+    }
+    div.poke{
+            display: inline-block;
+            margin: 10px;
+            font-size: 14px;
+            font-weight: bolder;
+            text-align: center;
+            width: 120px;
+            height: 120px;
+            border-radius: 4px;
+            box-shadow: 1px 1px 4px rgb(51, 50, 50);
+        }
+</style>
+
+<body>
+        <form>
+            <div class="form-group cont h-100 d-flex align-content-center flex-wrap">
+                <img src="pokeball.png" class="controlImg mb-2">
+                <input class="inputPoke form-control col-md-10 ml-2" placeholder="type a pokemon name">
+                <small class="form-text ml-2">can you guess all the 151 pokemons?</small>
+                <button type="button" id="btn" class="btn btn-primary mt-1 ml-2">search</button>
+            </div>
+        </form>
+        <div class="cont2">
+                
+        </div>
+        
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
